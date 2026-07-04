@@ -32,7 +32,7 @@ make
 
 ## Test
 
-´´´bash
+```bash
 curl -i http://localhost:8080/
 curl -i http://localhost:8080/about
 curl -i http://localhost:8080/api/time
@@ -40,4 +40,4 @@ curl -i http://localhost:8080/api/status
 curl -i http://localhost:8080/api/info
 curl -i -X POST http://localhost:8080/
 curl --path-as-is -i http://localhost:8080/../secret
-´´´
+```
