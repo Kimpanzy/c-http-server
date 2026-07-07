@@ -29,6 +29,12 @@ make
 ## Run
 
 ./http-server
+## Manual tests
+
+GET /about        -> fil
+GET /api/time     -> API
+GET /../secret    -> 403
+POST /about       -> 405
 
 ## Test
 
